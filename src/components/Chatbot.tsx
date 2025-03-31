@@ -7,7 +7,8 @@ import {
   SheetContent, 
   SheetHeader, 
   SheetTitle, 
-  SheetTrigger 
+  SheetTrigger,
+  SheetClose
 } from '@/components/ui/sheet';
 import { MessageCircle, Send, X } from 'lucide-react';
 import { toast } from '@/hooks/use-toast';
@@ -132,11 +133,11 @@ const Chatbot = () => {
           <SheetHeader className="border-b py-3 px-4">
             <div className="flex items-center justify-between">
               <SheetTitle>Web3Compete Assistant</SheetTitle>
-              <Sheet.Close asChild>
+              <SheetClose asChild>
                 <Button variant="ghost" size="icon">
                   <X className="h-4 w-4" />
                 </Button>
-              </Sheet.Close>
+              </SheetClose>
             </div>
           </SheetHeader>
           

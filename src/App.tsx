@@ -9,7 +9,6 @@ import Dashboard from "./pages/Dashboard";
 import Competitions from "./pages/Competitions";
 import Leaderboard from "./pages/Leaderboard";
 import NotFound from "./pages/NotFound";
-import Chatbot from "./components/Chatbot";
 
 const queryClient = new QueryClient();
 
@@ -26,7 +25,6 @@ const App = () => (
           <Route path="/leaderboard" element={<Leaderboard />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <Chatbot />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
