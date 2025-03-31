@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -24,6 +25,13 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				crypto: {
+					purple: '#8B5CF6',
+					blue: '#0EA5E9',
+					indigo: '#6366F1',
+					pink: '#D946EF',
+					dark: '#1A1F2C',
+				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
@@ -84,11 +92,36 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+				'pulse-glow': {
+					'0%, 100%': { 
+						opacity: '0.6',
+						transform: 'scale(1)'
+					},
+					'50%': { 
+						opacity: '1',
+						transform: 'scale(1.05)'
+					},
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-10px)' },
+				},
+				'gradient-x': {
+					'0%, 100%': {
+						'background-position': '0% 50%',
+					},
+					'50%': {
+						'background-position': '100% 50%',
+					},
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-glow': 'pulse-glow 3s infinite ease-in-out',
+				'float': 'float 6s infinite ease-in-out',
+				'gradient-x': 'gradient-x 15s ease infinite',
 			}
 		}
 	},
