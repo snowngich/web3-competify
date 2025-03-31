@@ -7,6 +7,7 @@ import CompetitionsSection from '@/components/CompetitionsSection';
 import LeaderboardSection from '@/components/LeaderboardSection';
 import CallToAction from '@/components/CallToAction';
 import Footer from '@/components/Footer';
+import Chatbot from '@/components/Chatbot';
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
         <CallToAction />
       </main>
       <Footer />
+      <Chatbot />
     </div>
   );
 };

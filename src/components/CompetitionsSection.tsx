@@ -28,7 +28,7 @@ const competitions = [
     participants: 312,
     maxParticipants: 500,
     endDate: 'Nov 30, 2023',
-    image: 'https://images.unsplash.com/photo-1658902089025-e505dd91426b?q=80&w=1000&auto=format&fit=crop'
+    image: 'https://images.unsplash.com/photo-1646671380691-f5c7025a0266?q=80&w=1000&auto=format&fit=crop'
   }
 ];
 

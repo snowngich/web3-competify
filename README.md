@@ -1,69 +1,82 @@
-# Welcome to your Lovable project
 
-## Project info
+# Web3Compete - Web3 Competition Platform
 
-**URL**: https://lovable.dev/projects/ce6f75cd-3842-4fb7-8da6-61cdb59b45be
+## Overview
 
-## How can I edit this code?
+Web3Compete is a cutting-edge platform that brings competitive gaming and challenges to the Web3 space. Users can participate in various blockchain-related competitions, including trading tournaments, staking challenges, NFT battles, and more, to win crypto rewards and climb the leaderboard.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- **Active Competitions**: Join ongoing competitions across different Web3 categories
+- **Leaderboard**: Track top performers and compete for ranking positions
+- **Dashboard**: View your participation, progress, and rewards
+- **Wallet Integration**: Connect your Web3 wallet to participate in competitions
+- **Real-time Updates**: Stay informed about competition status and results
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ce6f75cd-3842-4fb7-8da6-61cdb59b45be) and start prompting.
+## Technology Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+This project is built with modern web technologies:
 
-**Use your preferred IDE**
+- **Frontend**: React with TypeScript
+- **Styling**: Tailwind CSS for responsive design
+- **UI Components**: shadcn-ui for consistent and beautiful interfaces
+- **State Management**: React Query for efficient data fetching
+- **Routing**: React Router for navigation
+- **Icons**: Lucide React for scalable vector icons
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone <repository-url>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd web3compete
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- `/src/components` - Reusable UI components
+- `/src/pages` - Main application pages
+- `/src/hooks` - Custom React hooks
+- `/src/lib` - Utility functions and helpers
 
-**Use GitHub Codespaces**
+## Competition Types
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The platform currently features several types of competitions:
 
-## What technologies are used for this project?
+1. **Trading Tournaments**: Compete with the best traders across DeFi protocols
+2. **Staking Challenges**: Lock in assets and compete for the highest APY
+3. **NFT Battle Royale**: Pit your NFT collection against others for the best ROI
+4. **Arbitrage Masters**: Find the best arbitrage opportunities across chains
+5. **Yield Farming Derby**: Maximize yield farming returns
+6. **DeFi Portfolio Challenge**: Build the optimal DeFi portfolio
 
-This project is built with .
+## Future Roadmap
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Mobile app integration
+- More competition types
+- Enhanced analytics dashboard
+- Community governance features
+- Cross-chain competitions
 
-## How can I deploy this project?
+## Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/ce6f75cd-3842-4fb7-8da6-61cdb59b45be) and click on Share -> Publish.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## I want to use a custom domain - is that possible?
+## License
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+This project is licensed under the MIT License - see the LICENSE file for details.
